@@ -1,0 +1,12 @@
+
+.navbar li {
+    color:Crimson;
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 1em;
+    font-size: 2em;
+    margin:0.3;
+}
+.active{
+	    color:black;
+	}

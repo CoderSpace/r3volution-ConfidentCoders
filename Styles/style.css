@@ -1,0 +1,141 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.head {
+    text-align: center;
+    margin: 5%;
+    position: relative;
+    top: 2em;
+    color: Crimson;
+    font-size: 3em;
+}
+
+
+body {
+    background: linear-gradient(white, #B7BCB8, #6074A0);
+    margin:0;
+    padding:0;
+    text-align: justify;
+}
+
+.navbar {
+    font-size:1em;
+    list-style-type: none;
+    background-color: DarkCyan;
+    padding: 1%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding-top: 0.5px;
+    top: 0%;
+    display: block;
+    z-index:1;
+   
+}
+
+.navbar a:hover{
+    color:white;
+}
+
+
+  .fa-4x{
+      font-size:8em;
+ 
+  }
+
+.cslogo {
+  float:right;
+}
+
+.fa-facebook-square{
+    color:#3B5999;
+}
+
+.fa-codepen{
+      color:black;
+}
+
+.fa-slack{
+      color:#2FAD83;
+}
+
+.fa-snapchat-cloud {
+      color:yellow;
+}
+
+.fa-envelope{
+      color:#D54B3E;
+}
+
+.navbar a {
+    
+    text-decoration: none;
+    float: left;
+    position: relative;
+    
+}
+
+
+.sec {
+    color:Crimson;
+    top: 1em;
+    text-align: center;
+    margin: 5%;
+    position: relative;
+    font-size: 5em;
+}
+
+/*@media(max-width: 600px){*/
+  
+ .img{
+     display: flex;
+     flex-wrap:wrap;
+ }
+ .image{
+     display: flex;
+     flex-wrap:wrap;
+ }
+
+/*}*/
+
+.nav-toggle {
+  display:none;
+  background: none;
+  border-style: solid;
+  border-color: brown;
+  border-radius: .5em;
+  position:fixed;
+  z-index:100;
+}
+
+.fa-bars{
+  color:cyan;
+}
+
+.nav-item {display:inline-block;
+
+margin-right:1em;}
+
+@media (max-width:500px) 
+{
+  
+.nav-toggle {
+    display:inline;
+    background:none;
+    border-style:solid;
+}
+
+.nav-item {
+  display:block;}
+  
+ .mobile-nav-hidden {
+   display:none;}
+}
+
+.logo{
+    float:left;
+}
+
+
+
+
